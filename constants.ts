@@ -5,9 +5,9 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export const METADATA = {
-  title: "Portfolio | Ayush Singh",
+  title: "Portfolio | Sukhmani Chhabra",
   description:
-    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
+    "Computer Science undergraduate specializing in backend development and full-stack engineering — building RESTful APIs, scalable databases, and cloud-native applications.",
   siteUrl: "https://ayushsingh.net/",
 };
 
@@ -35,24 +35,18 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop things",
-  "I develop modern frontend apps",
-  "I design dynamic user experience",
-  "I design and develop motion",
+  "I build backend systems that scale",
+  "I design RESTful APIs and databases",
+  "I architect distributed cloud infrastructure",
+  "I build full-stack products end to end",
 ];
 
-export const EMAIL = "ayush.singh.xda@gmail.com";
+export const EMAIL = "sukhmani.c23@iiits.in";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/alphaayush/",
-  github: "https://github.com/ayush013",
-  medium: "https://alphaayush.medium.com/",
-  instagram: "https://www.instagram.com/alphaayush/",
-  facebook: "https://www.facebook.com/ayush013",
-  dribbble: "https://dribbble.com/alphaayush",
-  behance: "https://www.behance.net/alphaayush/",
-  twitter: "https://twitter.com/ayush013",
-  topmate: "https://www.topmate.io/alphaayush/",
+  linkedin: "https://linkedin.com/in/sukhmani-chhabra",
+  github: "https://github.com/sukhmanichhabra",
+  leetcode: "https://leetcode.com/u/Sukhmani_13/",
 };
 
 export interface IProject {
@@ -67,131 +61,68 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "FigGen - Figma to Code converter",
-    image: "/projects/figgen.jpg",
-    blurImage: "/projects/blur/figgen-blur.jpg",
-    description: "Pixel perfect HTML/Tailwind for Figma Auto layout designs.",
-    gradient: ["#1F6582", "#1ABCFE"],
-    url: "https://www.figma.com/community/plugin/1065278044402066626",
-    tech: ["typescript", "figma", "tailwind"],
+    name: "Nutrify — AI Nutrition Coach",
+    image: "/projects/nutrify.jpg",
+    blurImage: "/projects/blur/nutrify-blur.jpg",
+    description:
+      "An AI-native nutrition and fitness platform with an MCP-powered agent framework exposing 20+ tools for meal tracking, workout planning, and progress analytics.",
+    gradient: ["#1C3D2E", "#2D6A4F"],
+    url: "https://nutrify.codes/",
+    tech: ["fastapi", "react", "mongodb", "docker"],
   },
   {
-    name: "myOKR Website",
-    image: "/projects/myokr.jpg",
-    blurImage: "/projects/blur/myokr-blur.jpg",
-    description: "Marketing site for OKR Platform by huminos",
-    gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://www.huminos.com/",
-    tech: ["react", "next", "gsap", "tailwind"],
+    name: "Queuegate — Virtual Queueing Platform",
+    image: "/projects/queuegate.svg",
+    blurImage: "/projects/blur/queuegate-blur.svg",
+    description:
+      "A real-time, race-free virtual queueing platform with Redis-backed FIFO admission, live ETA tracking, and merchant analytics — built to never oversell capacity.",
+    gradient: ["#1B1035", "#3B1F73"],
+    url: "https://github.com/sukhmanichhabra/queuegate",
+    tech: ["next", "nestjs", "postgresql", "docker"],
   },
   {
-    name: "DLT Labs Website",
-    image: "/projects/dlt-website.jpg",
-    blurImage: "/projects/blur/dlt-website-blur.jpg",
-    description: "Marketing site with an Internal CMS from scratch",
-    gradient: ["#245B57", "#004741"],
-    url: "https://www.dltlabs.com/",
-    tech: ["figma", "angular", "gsap"],
-  },
-  {
-    name: "DL Unify",
-    image: "/projects/dl-unify.jpg",
-    blurImage: "/projects/blur/dl-unify-blur.jpg",
-    description: "Built the application from zero to production 🚀",
-    gradient: ["#003052", "#167187"],
-    url: "https://dlunify.com/",
-    tech: ["tailwind", "angular", "gsap", "figma"],
-  },
-  {
-    name: "ngx-quill-upload",
-    image: "/projects/ngx-quill-upload.jpg",
-    blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
-    description: "NPM Package for Quill JS uploads from Angular",
-    gradient: ["#3A0000", "#771E1E"],
-    url: "https://www.npmjs.com/package/ngx-quill-upload",
-    tech: ["npm", "angular", "typescript"],
-  },
-  {
-    name: "Huminos website",
-    image: "/projects/huminos.jpg",
-    blurImage: "/projects/blur/huminos-blur.jpg",
-    description: "Marketing site for Huminos bots for workplace by facebook",
-    gradient: ["#17007B", "#3A2C79"],
-    url: "https://bots.huminos.com/",
-    tech: ["javascript", "sass", "svg", "gulp"],
-  },
-  {
-    name: "AKGEC - College Website",
-    image: "/projects/akgec.jpg",
-    blurImage: "/projects/blur/akgec-blur.jpg",
-    description: "Contributed in overall design and development",
-    gradient: ["#5E4C06", "#746528"],
-    url: "https://www.akgec.ac.in/",
-    tech: ["javascript", "html", "css"],
-  },
-  {
-    name: "Alpha Aesthetics",
-    image: "/projects/alpha.jpg",
-    blurImage: "/projects/blur/alpha-blur.jpg",
-    description: "Designed and developed the platform",
-    gradient: ["#172839", "#334659"],
-    url: "https://alpha-aesthetics.ayushsingh.net/",
-    tech: ["illustrator", "javascript", "angular"],
-  },
-  {
-    name: "Amantrya - Polling Web App",
-    image: "/projects/farewell18.jpg",
-    blurImage: "/projects/blur/farewell18-blur.jpg",
-    description: "Dark mode dated from 2017 🔥",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://farewell18.ayushsingh.net/",
-    tech: ["javascript", "html", "css"],
-  },
-  {
-    name: "BDC 2018 Web Portal",
-    image: "/projects/bdc18.jpg",
-    blurImage: "/projects/blur/bdc18-blur.jpg",
-    description: "Built the portal from zero to production 🚀",
-    gradient: ["#470700", "#712A23"],
-    url: "https://bdc2018.ayushsingh.net/",
-    tech: ["javascript", "html", "css"],
-  },
-  {
-    name: "Scrolls 2017 - Website",
-    image: "/projects/scrolls.jpg",
-    blurImage: "/projects/blur/scrolls-blur.jpg",
-    description: "Built the portal from zero to production 🚀",
-    gradient: ["#685506", "#7B6921"],
-    url: "https://scrolls-17.ayushsingh.net/",
-    tech: ["angular", "html", "css"],
-  },
-  {
-    name: "Cardize - Visiting Cards",
-    image: "/projects/cardize.jpg",
-    blurImage: "/projects/blur/cardize-blur.jpg",
-    description: "First web project! Custom visiting card generator",
-    gradient: ["#552A04", "#614023"],
-    url: "https://cardize.ayushsingh.net/",
-    tech: ["javascript", "html", "css"],
+    name: "Feasto — Food Delivery Marketplace",
+    image: "/projects/feasto.svg",
+    blurImage: "/projects/blur/feasto-blur.svg",
+    description:
+      "A hyper-local food delivery marketplace split into 11 independently deployable microservices, with Kafka event streaming and live Redis-synced GPS tracking.",
+    gradient: ["#5E2408", "#8C3D14"],
+    url: "https://feasto.me/",
+    tech: ["nodejs", "kafka", "redis", "docker"],
   },
 ];
 
 export const SKILLS = {
-  frontend: [
+  languages: [
+    "python",
+    "cpp",
     "javascript",
-    "react",
-    "redux",
-    "next",
-    "angular",
-    "gsap",
-    "tailwind",
-    "sass",
-    "svg",
+    "typescript",
+    "sql",
+    "java",
     "html",
     "css",
   ],
-  userInterface: ["figma", "sketch", "illustrator", "photoshop"],
-  other: ["git", "webpack", "gulp", "lightroom", "aftereffects"],
+  frameworks: [
+    "fastapi",
+    "flask",
+    "nodejs",
+    "expressjs",
+    "react",
+    "next",
+    "apollo",
+    "tailwind",
+  ],
+  databases: [
+    "mongodb",
+    "postgresql",
+    "redis",
+    "mysql",
+    "prisma",
+    "kafka",
+    "docker",
+  ],
+  tools: ["aws", "git", "postman", "linux", "vercel", "socketio", "webrtc"],
 };
 
 export enum Branch {
@@ -211,6 +142,148 @@ export enum ItemSize {
 }
 
 export const TIMELINE: Array<TimelineNodeV2> = [
+  // ─── 2026 ───────────────────────────────────────────────────────────────
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2026",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Knight — LeetCode ♞",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Reached Knight badge on LeetCode, reflecting consistent practice and strong proficiency in data structures and algorithms.",
+    slideImage: "/timeline/leetcode-knight.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Shortlisted — Amazon ML Summer School 🎓",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Selected among top candidates across India for Amazon's prestigious Machine Learning Summer School program.",
+    image: "/timeline/amazon-ml.svg",
+    slideImage: "/timeline/amazon-ml-summer-school.png",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Research Paper — ICIIS 2026 📄",
+    size: ItemSize.SMALL,
+    subtitle:
+      "\"Dual-Architecture Next-Generation Whale Optimization: TITAN and ATLAS Frameworks for Dynamic Multivehicle IoV Path Planning\"",
+    image: "/timeline/iciis.svg",
+    slideImage: "/timeline/iciis-2026-paper.png",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Research Paper — IEEE CONECCT 2026 📡",
+    size: ItemSize.SMALL,
+    subtitle:
+      "\"A Potential-Field Guided Chaotic Opposition-Based Sparrow Search Algorithm for Global Optimization\"",
+    image: "/timeline/ieee.svg",
+    slideImage: "/timeline/ieee-conecct-2026-paper.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+
+  // ─── 2025 ───────────────────────────────────────────────────────────────
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2025",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.DIVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Software Engineer Intern — Zehntech Technologies 💼",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Internship at Zehntech Technologies Pvt. Ltd., Indore — worked on real-world software engineering projects.",
+    image: "/timeline/zehntech.svg",
+    slideImage: "/timeline/zehntech-slide.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Domain Lead — Deep Learning @ Epoch Club 🧠",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Led the Deep Learning vertical at Epoch Club, IIIT Sri City. Organised and took multiple hands-on sessions including Real-Time Model Building from Scratch (Aarambh '25).",
+    image: "/timeline/epoch.svg",
+    slideImage: "/timeline/epoch-deep-learning.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CONVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2nd Runner-Up — AgriAI Hackathon 🥉",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Won 2nd Runner-Up at AgriAI Hackathon, Abhisarga IIITS. Built an AI-powered agriculture intelligence system with crop disease detection and smart weather forecasting.",
+    image: "/timeline/hackathon.svg",
+    slideImage: "/timeline/agri-ai.png",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Hosted Women in Tech Event 👩‍💻",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Organised and hosted a Women in Technology event at IIIT Sri City, bringing together 30+ women students to celebrate and encourage diversity in tech.",
+    slideImage: "/timeline/women-in-tech.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+
+  // ─── 2024 ───────────────────────────────────────────────────────────────
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2024",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Core Member — Google Developers Club 🌐",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Core Member of Google Developers Club, IIIT Sri City. Contributed to sessions, workshops and community events. Took a session on Synchronization in Queues.",
+    image: "/timeline/gdsc.svg",
+    slideImage: "/timeline/women-in-tech.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Core Member — Deep Learning @ Epoch Club",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Joined Epoch Club as a Core Member focusing on Deep Learning. Helped build the club's learning initiatives and deep-learning community at IIIT Sri City.",
+    image: "/timeline/epoch.svg",
+    slideImage: "/timeline/epoch-deep-learning.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+
+  // ─── 2023 ───────────────────────────────────────────────────────────────
   {
     type: NodeTypes.CHECKPOINT,
     title: "2023",
@@ -220,261 +293,12 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Speaker at React India",
+    title: "Core Member — Distributed Systems @ Enigma Club 🔐",
     size: ItemSize.SMALL,
     subtitle:
-      "Discussed on Interaction to Next Paint (INP), a Google Core Web Vital metric",
-    image: "/timeline/reactindia.svg",
-    slideImage: "/timeline/reactindia.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2022",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer 2 (Current)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Frontend Engineering @ Core team, solving problems around Livingroom device performance",
-    image: "/timeline/hotstar.svg",
-    slideImage: "/timeline/hotstar.jpeg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2021",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Contributed to Server driven UI framework for powering experiences @ Flipkart Wholesale 😎",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2020",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer (freelance)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-freelance.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Motion Graphics (freelance)",
-    size: ItemSize.SMALL,
-    subtitle: "Motion Graphics content for Product Launch 🚀",
-    image: "/timeline/octanner.svg",
-    slideImage: "/timeline/aftereffects.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2019",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Worked on enterprise blockchain solutions for web. Transforming UI/UX and frontend framework. Built a design system.",
-    image: "/timeline/dltlabs.svg",
-    slideImage: "/timeline/dlt-website.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UX Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "First job! 🥳 Product design and development for employee engagement chatbot suite for workplace by facebook",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-website.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Graduated from College 🎓",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Fitness!",
-    image: "/timeline/akgec.svg",
-    slideImage: "/timeline/farewell.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2018",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.DIVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Student lead at SDC-SI",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Represented a team of 39 talented developers. Served different roles of leadership, project management and delivery.",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-head.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on SVG animations",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students to create their first animated SVG using CSS/SMIL at PHP Workshop, SDC-SI",
-
-    slideImage: "/timeline/svg-lecture.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2017",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed against 20+ teams for design and development of web project from scratch",
-    slideImage: "/timeline/ims-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Javascript",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 200 students for javascript fundamentals at Game Development workshop, SDC-SI",
-    slideImage: "/timeline/js-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Design, ABES ACM",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Competed in web and graphic design challenge with 100+ participants.",
-    slideImage: "/timeline/abes-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Lecture on Web Technologies",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Guided 300+ students on getting started with web technologies like HTML/CSS and JS",
-    slideImage: "/timeline/web-17.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2016",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "1st position in Web Designing, IMSU",
-    size: ItemSize.SMALL,
-    subtitle: "Secured 1st prize in Web design challenge against 50+ teams",
-    slideImage: "/timeline/ims-16.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
-  {
-    type: NodeTypes.CONVERGE,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI/UX, Frontend Engineer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Started journey in SDC-SI, where I learnt the fundamentals of Frontend, UI/UX, Graphic design and more...",
-    image: "/timeline/si.svg",
-    slideImage: "/timeline/si-start.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2014",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Recognized Themer",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Awarded as recognized themer,  Developed themes and ROMs for Xperia 2011 devices lineup with over 15k+ downloads. Featured on xda portal twice.",
-    image: "/timeline/xda.svg",
-    slideImage: "/timeline/xda-rt.jpg",
+      "Core Member of the Distributed Systems track at Enigma Club, IIIT Sri City. Explored distributed architectures, consensus algorithms and systems design.",
+    image: "/timeline/enigma.svg",
+    slideImage: "/timeline/dl-teaching.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
