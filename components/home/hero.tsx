@@ -81,35 +81,62 @@ const HeroSection = React.memo(() => {
 
   const renderHeroContent = (): React.ReactNode => (
     <div className={HERO_STYLES.CONTENT}>
+      <div className="seq mb-4 md:mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 backdrop-blur-sm">
+        <span className="relative flex h-2 w-2">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+          <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
+        </span>
+        <span className="text-xs md:text-sm font-medium tracking-wide text-gray-200">
+          Backend Engineer · Open to opportunities
+        </span>
+      </div>
       <div className="md:mb-4 mb-2">
-        <h2 className="text-4xl seq">Hello 👋🏻</h2>
-        <h1 className="text-3xl seq">I am Ayush Singh</h1>
+        <h2 className="text-xl md:text-2xl text-gray-300 seq">Hello 👋🏻</h2>
+        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight seq mt-1">
+          I am Sukhmani Chhabra
+        </h1>
       </div>
       <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
       </p>
       <div className="flex seq mb-5">{renderSocialLinks()}</div>
-      <div className="flex seq">
+      <div className="flex seq mb-8">
         <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
-          name="Resume"
+          name="↓ Resume"
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Ayush_Resume.pdf"
+          href="/Resume_Sukhmani.pdf"
         ></Button>
         <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
-          name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
+          name="Let's Talk →"
+          href={`mailto:${EMAIL}`}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
           }}
         ></Button>
+      </div>
+      <div className="seq flex flex-wrap gap-x-8 gap-y-3 border-t border-white/10 pt-6">
+        {[
+          ["9.11", "CGPA"],
+          ["3+", "Full-Stack Projects"],
+          ["2", "Research Papers"],
+        ].map(([stat, label]) => (
+          <div key={label} className="flex flex-col">
+            <span className="text-2xl md:text-3xl font-semibold text-white">
+              {stat}
+            </span>
+            <span className="text-xs md:text-sm text-gray-400 tracking-wide">
+              {label}
+            </span>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -81,25 +81,35 @@ const HeroImage = () => (
       </g>
       <g id="Group_17">
         <g
-          id="angular-icon-1_1"
+          id="terminal-icon_1"
           clipPath="url(#clip0)"
           filter="url(#filter0_d)"
         >
-          <path
-            id="Vector"
-            d="M355.649 571.355l18.308-17.836 25.985-2.67 9.639 30.59-14.05 19.066-23.259-1.767-16.623-27.383z"
-            fill="#E23237"
+          <rect
+            x="357"
+            y="553"
+            width="52"
+            height="44"
+            rx="5"
+            fill="#0F766E"
+            transform="rotate(-24.663 357 553)"
           />
-          <path
-            id="Vector_2"
-            d="M399.942 550.849l-25.985 2.67 21.574 46.986 14.058-19.049-9.647-30.607z"
-            fill="#B52E31"
-          />
-          <path
-            id="Vector_3"
-            d="M376.51 558.989l.279 36.564 5.054-2.425-.401-8.094 12.232-5.616 6.176 5.546 4.909-2.149-28.249-23.826zm4.493 9.693l9.027 7.506-8.663 3.977-.364-11.483z"
-            fill="#fff"
-          />
+          <g transform="rotate(-24.663 357 553)">
+            <path
+              d="M364 566l7 6-7 6"
+              stroke="#fff"
+              strokeWidth="2.6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+            />
+            <path
+              d="M375 580h12"
+              stroke="#fff"
+              strokeWidth="2.6"
+              strokeLinecap="round"
+            />
+          </g>
         </g>
         <path
           id="Path"
@@ -1839,168 +1849,251 @@ const HeroImage = () => (
           />
         </g>
         <g id="Group_5">
+          {/* ── FEMALE DEVELOPER FIGURE (Professional White Blazer Suit matching Original Preview Image) ── */}
+
+          {/* === BACK LAYER: LONG DARK HAIR === */}
+          {/* Long dark hair flowing down her back past shoulders */}
           <path
-            id="Vector_46"
-            d="M907.782 498.908s2.14 8.28 2.14 10.37.517 3.49-3.981 4.36c-4.497.87-7.462.35-8.159-1.74-.696-2.09-1.214-12.57-1.214-12.57l10.946-2.1.268 1.68z"
-            fill="#fff"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_47"
-            d="M897.832 511.908a8.754 8.754 0 01-.299-1.46 73.335 73.335 0 0012.458-1c0 2 .388 3.35-3.98 4.19-4.368.84-7.512.36-8.179-1.73z"
-            fill="#fff"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_48"
-            d="M802.26 499.688s-3.473 1.22-8.517 2.79c-5.045 1.57-15.314 3.32-16.309 3.49-.995.17-.995 2.27-.169 3.15.826.88 5.383 3.49 10.766 4.88 5.383 1.39 23.632 2.62 25.194 1.58 1.304-.88.866-9.43.348-11.35-.517-1.92-11.313-4.54-11.313-4.54z"
-            fill="#fff"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_49"
-            d="M777.245 509.118a2.626 2.626 0 01-.517-2.45c3.522 2.82 10.557 5.92 17.711 6.64a127.36 127.36 0 0019.503-.1c-.13 1.2-.359 2.11-.737 2.37-1.562 1-19.801-.18-25.194-1.58-5.393-1.4-9.9-4.01-10.766-4.88z"
-            fill="#fff"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_50"
-            d="M886.29 347.478s2.985 18.26.676 28.4c0 0 4.368 40.22 5.045 58.14 0 0 9.413 31.44 10.766 41.24a242.503 242.503 0 005.005 23.65 21.246 21.246 0 01-6.726 2.37c-4.717 1-5.383-2.71-5.383-2.71s-25.871-59.83-27.921-68.62c-2.049-8.79-8.726-40.21-8.726-40.21l-27.861 51.38s-1.353 17.58-5.383 27.72-11.771 38.19-11.771 38.19a27.753 27.753 0 01-9.084-1c-4.04-1.35-4.04-3.38-4.04-3.38s6.059-22.65 6.059-30.08 2.349-32.79 4.03-39.89c1.682-7.1 13.125-44.28 14.806-48.34 1.682-4.06 5.383-16.9 5.383-16.9l2.349-19.95s28.895 8.11 52.776-.01z"
+            id="f_hair_back"
+            d="M835,210
+               C826,220 824,245 826,270
+               C828,295 832,330 842,365
+               C848,385 858,395 868,395
+               C878,395 886,380 888,355
+               C890,330 888,285 884,260
+               C880,235 874,215 868,210 Z"
             fill="#111827"
+            stroke="#263238"
+            strokeWidth={1.035}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+
+          {/* === LEGS & SHOES (White trousers & white pointed heels) === */}
+          {/* Right leg (standing on top platform step) */}
+          <path
+            id="f_leg_r"
+            d="M875,360 C882,400 892,450 903,496"
+            fill="none"
+            stroke="#263238"
+            strokeWidth={21}
+            strokeLinecap="round"
+          />
+          <path
+            id="f_leg_r_fill"
+            d="M875,360 C882,400 892,450 903,496"
+            fill="none"
             stroke="#fff"
-            strokeWidth={1.035}
+            strokeWidth={19}
             strokeLinecap="round"
-            strokeLinejoin="round"
           />
+          {/* Right white pointed heel shoe */}
           <path
-            id="Vector_51"
-            d="M864.946 261.328s1.553-3.37 1.553-5.44c0-2.07.995-11.91.995-11.91s-14.926-27.17-19.055-32.35a63.385 63.385 0 00-9.015-9.06s-10.05-2.07-12.109-2.07c-2.06 0-4.379-1-4.379-2.33s3.354-1 5.413-1c2.06 0 4.637-1.81 4.637-1.81s-3.353-9.65-4.378-13.46c-.547-2-2.318-6.21-.995-6.21s1.542 1 2.318 2.59c.777 1.59 4.12 6.73 4.12 6.73l-.766-11.39s.995-1.55 1.801.26a78.355 78.355 0 012.577 8.54 6.266 6.266 0 001.283 2.46l.995-8.49s1.752-1.87 2.06 1.37c.169 1.8 0 7.77 0 8.8 0 1.03.995-1.47.995-1.47s.607-2.81 1.284-3.19c.676-.38 1.283.52.995 2.59-.289 2.07.258 10.61.258 10.61s1.543 2.07 3.861 4.92c2.319 2.85 20.896 19.67 27.861 25.11 6.965 5.44 7.721 9.84 8.756 15.27 1.035 5.43 2.06 37 2.06 48.41 0 11.41-.995 29.5-1.801 35.46-.806 5.96.617 13.64 1.612 17.82.995 4.18 0 7.76-2.836 9.83-2.836 2.07-14.926 3.37-24.975 3.37-10.05 0-20.349-1-23.443-2.07-3.095-1.07-5.463-1.31-5.463-5.44 0-4.13 2.06-12.42 2.06-14.75s-4.129-26.4-4.129-26.4-26.269 8-31.164 6.21c-4.896-1.79-45.841-40.64-45.841-40.64s-6.438-2.59-9.791-3.11c-3.353-.52-8.498-2.84-8.756-3.62-.259-.78.517-.52 2.577-.52a24.14 24.14 0 015.413 1s-7.035-4.48-8.249-4.92c-.836-.31-2.279-2.22-.259-1.81 2.537.51 8.756 2.33 8.756 2.33l-8.238-5.18s-1.284-2.07.258-2.07c1.543 0 9.274 4.66 9.274 4.66l-5.97-5.62c-1.164-1.08-.189-2.61 1.184-1.81l6.965 4c1.698.998 3.5 1.806 5.373 2.41l1.284.78a34.506 34.506 0 01-.518-4.14c0-1.3.776-4.66 2.577-4.92 1.801-.26.259 2.33.259 3.62s2.577 8 2.577 9.06v3.11s8.756 7.76 16.736 11.91c7.981 4.15 26.02 17.86 26.02 17.86s20.597-10.62 25.234-14.5c4.637-3.88 9.791-8.54 14.925-12.68a63.939 63.939 0 018.498-6l16.726-.71z"
+            id="f_shoe_r"
+            d="M894,496 C894,496 891,499 892,504 C893,509 900,512 908,512 C916,512 918,506 914,501 C910,496 903,495 894,496 Z"
             fill="#fff"
             stroke="#263238"
             strokeWidth={1.035}
             strokeLinecap="round"
             strokeLinejoin="round"
           />
+
+          {/* Left leg (slightly lower step / standing straight) */}
           <path
-            id="Vector_52"
-            d="M778.877 280.558c8.746 5.62 20.657 14.68 20.657 14.68s20.596-10.62 25.233-14.5c4.637-3.88 9.791-8.54 14.926-12.68a63.929 63.929 0 018.497-6l16.736-.77s1.553-3.37 1.553-5.44c0-2.07.995-11.91.995-11.91s-7.712-14-13.582-23.85l.467-.48c2.886-2.89 6.876-4.45 10.358-5.3 4.856 4.33 9.682 8.5 12.548 10.74 6.965 5.43 7.721 9.84 8.756 15.27 1.035 5.43 2.06 37 2.06 48.41 0 11.41-.995 29.5-1.801 35.46-.806 5.96.607 13.72 1.602 17.9.995 4.18 0 7.76-2.836 9.83-2.836 2.07-14.926 3.37-24.975 3.37-10.05 0-20.349-1-23.443-2.07-3.095-1.07-5.463-1.31-5.463-5.44 0-4.13 2.06-12.42 2.06-14.75s-4.129-26.4-4.129-26.4-26.269 8-31.164 6.21c-2.607-1-15.523-12.5-26.976-23a35.345 35.345 0 017.921-9.28z"
+            id="f_leg_l"
+            d="M845,360 C840,405 832,450 822,496"
+            fill="none"
+            stroke="#263238"
+            strokeWidth={21}
+            strokeLinecap="round"
+          />
+          <path
+            id="f_leg_l_fill"
+            d="M845,360 C840,405 832,450 822,496"
+            fill="none"
+            stroke="#fff"
+            strokeWidth={19}
+            strokeLinecap="round"
+          />
+          {/* Left white pointed heel shoe */}
+          <path
+            id="f_shoe_l"
+            d="M810,497 C806,500 805,505 810,508 C815,511 823,509 827,505 C830,501 828,496 820,496 C816,496 813,496 810,497 Z"
             fill="#fff"
             stroke="#263238"
             strokeWidth={1.035}
             strokeLinecap="round"
             strokeLinejoin="round"
           />
+
+          {/* Trouser waist crease details */}
           <path
-            id="Vector_53"
-            d="M837.135 272.668s10.368 2.84 10.946 10.73"
+            id="f_trouser_waist"
+            d="M834,360 C848,362 862,362 876,360"
+            fill="none"
+            stroke="#263238"
+            strokeWidth={1}
+            opacity={0.6}
+          />
+
+          {/* === INNER V-NECK TOP === */}
+          <path
+            id="f_inner_top"
+            d="M844,232 L855,255 L866,232 Z"
+            fill="#fff"
             stroke="#263238"
             strokeWidth={1.035}
-            strokeLinecap="round"
             strokeLinejoin="round"
           />
+
+          {/* === WHITE PROFESSIONAL BLAZER / SUIT JACKET === */}
           <path
-            id="Vector_54"
-            d="M829.176 306.628s12.079-3.34 18.358-9.66"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_55"
-            d="M835.882 304.908s10.368 2.84 19.791-.94"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_56"
-            d="M879.623 288.138s-3.274 23-19.055 34.46"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_57"
-            d="M855.593 328.908c-1.204.33-2.448.62-3.731.85"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_58"
-            d="M879.623 311.108a44.344 44.344 0 01-17.662 15.36"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_59"
-            d="M882.678 260.048s-10.05-5-16.02-.32"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_60"
-            d="M879.852 237.008s-9.114 3.16-11.622 9.47"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_61"
-            d="M873.882 234.798a12.904 12.904 0 00-4.398 6.94"
-            stroke="#263238"
-            strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_62"
-            d="M830.956 219.908s-1.552 8.8-1.552 11.13 2.577 3.11 1.552 6.21c-1.024 3.1-3.353 3.37-2.835 6 .517 2.63 3.86 4.14 3.86 4.14s1.801 7.25 3.612 10.35c1.811 3.1 8.498.78 8.498.78l.517 8.28s2.319 3.37 10.816 2.33a46.98 46.98 0 0014.159-3.88l1.294-1.81s-6.697-3.37-6.965-5.7c-.269-2.33 0-7.76 0-15.53s2.318-22.78-10.299-26.66c-12.617-3.88-22.657 4.36-22.657 4.36z"
+            id="f_blazer_body"
+            d="M832,236
+               C836,233 844,236 855,236
+               C866,236 874,233 878,236
+               C884,248 888,270 886,300
+               C884,330 888,360 890,375
+               C874,378 855,378 834,375
+               C836,360 840,330 838,300
+               C836,270 828,248 832,236 Z"
             fill="#fff"
             stroke="#263238"
             strokeWidth={1.035}
             strokeLinecap="round"
             strokeLinejoin="round"
           />
+          {/* Blazer lapels */}
           <path
-            id="Vector_63"
-            d="M846.688 241.158s2.905-6.7 6.159-2.87c2.109 2.49-.518 9.84-1.801 10.87-1.284 1.03-4.12.52-4.12.52s4.12 4.14 8.498 4.14c4.378 0 8.239-4.14 11.074-11.39 2.836-7.25 4.896-19.67 1.801-27.18-3.094-7.51-19.064-7.76-22.666-7.76-3.602 0-9.015 2.07-9.015 2.07s-11.592-1-11.851 2.85c-.259 3.85 1.552 4.14 1.552 4.14s-8.248 4.4-4.378 6.21c3.871 1.81 9.781.78 13.652.78a5.5 5.5 0 012.979.676 5.534 5.534 0 012.165 2.164s-3.602 2.33-2.318 3.37c1.283 1.04 5.97 3.1 6.438 4.92.467 1.82-1.801 4.66-.249 6 1.552 1.34 2.08.49 2.08.49z"
+            id="f_lapel_l"
+            d="M844,236 L850,265 L855,275 L840,270 Z"
+            fill="#fff"
+            stroke="#263238"
+            strokeWidth={1.035}
+            strokeLinejoin="round"
+          />
+          <path
+            id="f_lapel_r"
+            d="M866,236 L860,265 L855,275 L870,270 Z"
+            fill="#fff"
+            stroke="#263238"
+            strokeWidth={1.035}
+            strokeLinejoin="round"
+          />
+          {/* Center button closure */}
+          <circle id="f_blazer_btn" cx={855} cy={285} r={2} fill="#263238" />
+          {/* === ARMS REACHING FORWARD TO TOUCH UI DESIGN BOX === */}
+          {/* Left arm (with natural elbow bend reaching to bottom of square box around X=802, Y=382) */}
+          <path
+            id="f_arm_left_blazer"
+            d="M840,248 C835,285 825,335 802,382"
+            fill="none"
+            stroke="#263238"
+            strokeWidth={13}
+            strokeLinecap="round"
+          />
+          <path
+            id="f_arm_left_blazer_fill"
+            d="M840,248 C835,285 825,335 802,382"
+            fill="none"
+            stroke="#fff"
+            strokeWidth={11}
+            strokeLinecap="round"
+          />
+          {/* Left hand touching UI box */}
+          <ellipse id="f_hand_left" cx={800} cy={384} rx={5} ry={4.5}
+            fill="#fff" stroke="#263238" strokeWidth={1.035} />
+          {/* Left hand finger pointing/touching */}
+          <path id="f_finger_l" d="M795,384 L790,383" stroke="#263238" strokeWidth={1.5} strokeLinecap="round" />
+
+          {/* Right arm (reaching across across torso to touch right side of square around X=814, Y=368) */}
+          <path
+            id="f_arm_right_blazer"
+            d="M874,248 C864,285 844,335 814,368"
+            fill="none"
+            stroke="#263238"
+            strokeWidth={13}
+            strokeLinecap="round"
+          />
+          <path
+            id="f_arm_right_blazer_fill"
+            d="M874,248 C864,285 844,335 814,368"
+            fill="none"
+            stroke="#fff"
+            strokeWidth={11}
+            strokeLinecap="round"
+          />
+          {/* Right hand touching square */}
+          <ellipse id="f_hand_right" cx={812} cy={370} rx={5} ry={4.5}
+            fill="#fff" stroke="#263238" strokeWidth={1.035} />
+          {/* Right hand finger touching/adjusting element */}
+          <path id="f_finger_r" d="M807,369 L802,367" stroke="#263238" strokeWidth={1.5} strokeLinecap="round" />
+
+          {/* === NECK === */}
+          <path
+            id="f_neck"
+            d="M848,218 L848,235 C851,237 858,237 862,235 L862,218 Z"
+            fill="#fff"
+            stroke="#263238"
+            strokeWidth={1.035}
+          />
+
+          {/* === HEAD & FACE === */}
+          {/* Head shape */}
+          <ellipse
+            id="f_head"
+            cx={856}
+            cy={204}
+            rx={15.5}
+            ry={18}
+            fill="#fff"
+            stroke="#263238"
+            strokeWidth={1.035}
+          />
+
+          {/* === HAIR TOP & BANGS === */}
+          <path
+            id="f_hair_top"
+            d="M840,200
+               C840,184 848,174 858,173
+               C868,172 876,182 876,195
+               C874,188 866,184 858,187
+               C850,190 844,196 840,200 Z"
             fill="#111827"
-          />
-          <path
-            id="eye"
-            d="M832.359 238.028c0 1.32.548 2.39 1.214 2.39.667 0 1.204-1.07 1.204-2.39s-.547-2.39-1.204-2.39c-.656 0-1.214 1.07-1.214 2.39z"
-            fill="#263238"
-          />
-          <path
-            id="Vector_64"
-            d="M836.578 234.978s-1.661-3.9-4.298-1.81"
             stroke="#263238"
             strokeWidth={1.035}
-            strokeLinecap="round"
-            strokeLinejoin="round"
           />
+          {/* Side hair strands framing face */}
+          <path
+            id="f_hair_side_l"
+            d="M841,198 C838,206 838,215 840,224 C842,228 844,230 846,231"
+            fill="none"
+            stroke="#111827"
+            strokeWidth={5}
+            strokeLinecap="round"
+          />
+          <path
+            id="f_hair_side_r"
+            d="M871,195 C874,206 874,218 872,226 C870,223 869,215 869,205 C869,200 870,197 871,195 Z"
+            fill="#111827"
+            stroke="#263238"
+            strokeWidth={1}
+          />
+
+          {/* Ear */}
+          <circle id="f_ear" cx={841} cy={207} r={3} fill="#fff" stroke="#263238" strokeWidth={0.8} />
+
+          {/* === FACIAL FEATURES === */}
+          {/* Eye */}
+          <path id="f_eye" d="M854,203 C856,201 859,201 861,203" fill="none" stroke="#263238" strokeWidth={1.4} strokeLinecap="round" />
+          <circle id="f_eye_pupil" cx={858} cy={204.5} r={1.2} fill="#263238" />
+          {/* Eyebrow */}
+          <path id="f_eyebrow" d="M853,197 C856,195 860,195 863,197" fill="none" stroke="#263238" strokeWidth={1.4} strokeLinecap="round" />
+          {/* Nose */}
+          <path id="f_nose" d="M860,207 C860,209 862,211 864,210" fill="none" stroke="#263238" strokeWidth={0.9} strokeLinecap="round" />
+          {/* Smile */}
+          <path id="f_smile" d="M857,215 C859,218 863,218 865,215" fill="none" stroke="#263238" strokeWidth={1.3} strokeLinecap="round" />
+
           <path
             id="Vector_65"
             d="M859.046 389.738l2.358-4.4 11.771-3.04"
@@ -2428,32 +2521,13 @@ const HeroImage = () => (
       </g>
       <g clipPath="url(#clip5)" id="Frame_24">
         <rect x={567} y={134} width={37} height={37} rx={4} fill="#233950" />
-        <g id="figma-1_1" clipPath="url(#clip6)" filter="url(#filter2_d)">
-          <path
-            id="path0_fill"
-            d="M581.14 166.243c2.553 0 4.624-2.052 4.624-4.581v-4.581h-4.624c-2.552 0-4.624 2.052-4.624 4.581 0 2.529 2.072 4.581 4.624 4.581z"
-            fill="#0ACF83"
-          />
-          <path
-            id="path1_fill"
-            d="M576.516 152.5c0-2.529 2.072-4.581 4.624-4.581h4.624v9.162h-4.624c-2.552 0-4.624-2.052-4.624-4.581z"
-            fill="#A259FF"
-          />
-          <path
-            id="path1_fill_1"
-            d="M576.517 143.338c0-2.529 2.071-4.581 4.624-4.581h4.624v9.162h-4.624c-2.553 0-4.624-2.052-4.624-4.581z"
-            fill="#F24E1E"
-          />
-          <path
-            id="path2_fill"
-            d="M585.764 138.757h4.624c2.553 0 4.624 2.052 4.624 4.581 0 2.529-2.071 4.581-4.624 4.581h-4.624v-9.162z"
-            fill="#FF7262"
-          />
-          <path
-            id="path3_fill"
-            d="M595.012 152.5c0 2.529-2.071 4.581-4.624 4.581-2.552 0-4.624-2.052-4.624-4.581 0-2.529 2.072-4.581 4.624-4.581 2.553 0 4.624 2.052 4.624 4.581z"
-            fill="#1ABCFE"
-          />
+        <g id="database-icon_1" clipPath="url(#clip6)" filter="url(#filter2_d)">
+          <rect x="575" y="141.5" width="21" height="6" rx="1.5" fill="#fff" />
+          <circle cx="579" cy="144.5" r="1" fill="#233950" />
+          <rect x="575" y="149.5" width="21" height="6" rx="1.5" fill="#fff" />
+          <circle cx="579" cy="152.5" r="1" fill="#233950" />
+          <rect x="575" y="157.5" width="21" height="6" rx="1.5" fill="#fff" />
+          <circle cx="579" cy="160.5" r="1" fill="#233950" />
         </g>
       </g>
     </g>
