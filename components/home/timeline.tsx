@@ -474,7 +474,7 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
         <div className="absolute top-0 left-0 h-full w-full">
           {svgCheckpointItems.map((item, index) => (
             <Image
-              className={`w-full absolute top-0 object-cover slide-${
+              className={`w-full absolute top-0 object-contain object-top slide-${
                 index + 1
               }`}
               src={(item as CheckpointNode).slideImage || ""}
@@ -503,7 +503,7 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
       <p className="section-title-sm seq">MILESTONES</p>
       <h1 className="section-heading seq mt-2">Timeline</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        A quick recap of proud moments
+        Research, leadership &amp; moments that shaped my journey ✨
       </h2>
     </div>
   );

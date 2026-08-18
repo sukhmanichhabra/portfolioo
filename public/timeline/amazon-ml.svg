@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <rect width="200" height="80" rx="8" fill="#111827"/>
+  <!-- Amazon smile arrow -->
+  <text x="10" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FF9900">amazon</text>
+  <path d="M 10 52 Q 60 65 110 52" stroke="#FF9900" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 105 48 L 113 54 L 105 58" stroke="#FF9900" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- ML text -->
+  <text x="120" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">ML</text>
+  <!-- Neural net dots -->
+  <circle cx="130" cy="55" r="3" fill="#FF9900" opacity="0.7"/>
+  <circle cx="145" cy="50" r="3" fill="#FF9900" opacity="0.7"/>
+  <circle cx="160" cy="58" r="3" fill="#FF9900" opacity="0.7"/>
+  <line x1="130" y1="55" x2="145" y2="50" stroke="#FF9900" stroke-width="1" opacity="0.5"/>
+  <line x1="145" y1="50" x2="160" y2="58" stroke="#FF9900" stroke-width="1" opacity="0.5"/>
+  <line x1="130" y1="55" x2="160" y2="58" stroke="#FF9900" stroke-width="1" opacity="0.5"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="1024" height="480" viewBox="0 0 1024 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="480" fill="#1A1A1A"/>
+
+  <!-- profile card -->
+  <rect x="352" y="90" width="320" height="300" rx="20" fill="#282828"/>
+  <circle cx="512" cy="180" r="46" fill="#FFA116"/>
+  <text x="512" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#1A1A1A">SC</text>
+
+  <text x="512" y="256" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="white">Sukhmani Chhabra</text>
+  <text x="512" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#9A9A9A">Sukhmani_13</text>
+
+  <rect x="422" y="316" width="180" height="46" rx="23" fill="#3A2A0A"/>
+  <text x="512" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFA116">♞  Knight</text>
+
+  <text x="80" y="60" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#FFA116">LeetCode</text>
+</svg>

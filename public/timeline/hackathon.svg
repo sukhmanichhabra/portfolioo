@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <rect width="200" height="80" rx="8" fill="#111827"/>
+  <!-- Trophy cup -->
+  <path d="M 22 15 L 48 15 L 48 40 Q 48 55 35 58 Q 22 55 22 40 Z" stroke="#F59E0B" stroke-width="2.5" fill="none"/>
+  <line x1="15" y1="15" x2="22" y2="15" stroke="#F59E0B" stroke-width="2.5"/>
+  <path d="M 15 15 Q 10 25 20 35" stroke="#F59E0B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="48" y1="15" x2="55" y2="15" stroke="#F59E0B" stroke-width="2.5"/>
+  <path d="M 55 15 Q 60 25 50 35" stroke="#F59E0B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="28" y1="58" x2="42" y2="58" stroke="#F59E0B" stroke-width="2.5"/>
+  <line x1="25" y1="65" x2="45" y2="65" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Star inside trophy -->
+  <text x="29" y="42" font-family="Arial, sans-serif" font-size="18" fill="#F59E0B">★</text>
+  <!-- Text -->
+  <text x="65" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">AgriAI</text>
+  <text x="65" y="47" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">Hackathon</text>
+  <text x="65" y="62" font-family="Arial, sans-serif" font-size="10" fill="#F59E0B">2nd Runner-Up 🥉</text>
+</svg>

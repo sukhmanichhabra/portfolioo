@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <rect width="200" height="80" rx="8" fill="#111827"/>
+  <!-- Epoch infinity-style logo -->
+  <path d="M 20 40 C 20 25 35 20 45 30 C 55 40 65 50 75 40 C 85 30 95 20 105 30 C 115 40 115 55 105 50 C 95 45 85 30 75 40 C 65 50 55 60 45 50 C 35 40 20 55 20 40Z" 
+        stroke="#A855F7" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Epoch text -->
+  <text x="120" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#A855F7">Epoch</text>
+  <text x="120" y="62" font-family="Arial, sans-serif" font-size="9" fill="#9CA3AF">IIIT Sri City</text>
+</svg>
