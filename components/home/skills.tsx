@@ -51,8 +51,8 @@ const SkillsSection = () => {
       <p className="section-title-sm seq">SKILLS</p>
       <h1 className="section-heading seq mt-2">My Skills</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        I like to take responsibility to craft aesthetic user experience using
-        modern frontend architecture.{" "}
+        I like to take responsibility for building reliable backend systems
+        and full-stack applications using modern cloud architecture.{" "}
       </h2>
     </div>
   );
@@ -116,16 +116,21 @@ const SkillsSection = () => {
         <div className="flex flex-col skills-wrapper">
           {renderSectionTitle()}
           <div className="mt-10">
-            {renderSkillColumn("FRONTEND DEVELOPMENT", SKILLS.frontend)}
+            {renderSkillColumn("LANGUAGES", SKILLS.languages)}
           </div>
           <div className="flex flex-wrap mt-10">
             <div className="mr-6 mb-6">
+              {renderSkillColumn("Frameworks & Libraries", SKILLS.frameworks)}
+            </div>
+            <div>
               {renderSkillColumn(
-                "User Interface, User Experience Design",
-                SKILLS.userInterface
+                "Databases & Infrastructure",
+                SKILLS.databases
               )}
             </div>
-            <div>{renderSkillColumn("Other Skills", SKILLS.other)}</div>
+          </div>
+          <div className="mt-10">
+            {renderSkillColumn("Tools & Cloud", SKILLS.tools)}
           </div>
         </div>
       </div>
