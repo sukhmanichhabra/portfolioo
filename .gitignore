@@ -18,6 +18,10 @@
 # misc
 .DS_Store
 *.pem
+tsconfig.tsbuildinfo
+
+# this project uses yarn; a stray npm lockfile confuses CI lockfile detection
+package-lock.json
 
 # debug
 npm-debug.log*
