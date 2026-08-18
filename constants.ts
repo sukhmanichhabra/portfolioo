@@ -77,7 +77,7 @@ export const PROJECTS: IProject[] = [
     description:
       "A real-time, race-free virtual queueing platform with Redis-backed FIFO admission, live ETA tracking, and merchant analytics — built to never oversell capacity.",
     gradient: ["#1B1035", "#3B1F73"],
-    url: "https://github.com/sukhmanichhabra/queuegate",
+    url: "https://queuegate.sukhmanichhabra.tech/",
     tech: ["next", "nestjs", "postgresql", "docker"],
   },
   {
